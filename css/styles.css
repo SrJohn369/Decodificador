@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: blueviolet;
+    padding: 1.2rem 10rem;
+    justify-content: center;
+}
+.foorter-dev{
+    display: flex;
+    background-color: blueviolet;
+    padding: 1rem 34.99rem;
+    justify-content: center;
+}
+
+button {
+    background-color: #0A3871;
+    color: white;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    height: 48px;
+    width: 10rem;
+}
+.descriptografar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+/* */
+.decor {
+    margin: 2rem 5rem;
+    display: flex;
+    background-color: aqua;
+    height: 28.1rem;
+}
+.decodificador{
+    display: flex;
+    flex-direction: column;
+}

@@ -10,24 +10,27 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <img src="#" alt="Logo do Decodificador">
         </nav>
     </header>
     <main>
-        <textarea name="campo-cript-descript" id="campo-cript-descript" cols="30" rows="10"></textarea>
-
-        <div class="main-buttons">
-            <button type="button">Criptografar</button>
-            <button type="button">Descriptografar</button>
-        </div>
-        <div class="resultText">
-            <div class="resultText-info">
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+        <div class="decor">
+            <aside class="decodificador">
+                <textarea name="campo-cript-descript" id="campo-cript-descript" cols="60" rows="10"></textarea>
+                <div class="main-buttons">
+                    <button type="button">Criptografar</button>
+                    <button type="button" class="descriptografar">Descriptografar</button>
+                </div>
+            </aside>
+            <div class="resultText">
+                <div class="resultText-info">
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="foorter-dev">
         <p>Desenvolvido por João Victor</p>
     </footer>
     <script src="./javascript/script.js"></script>
