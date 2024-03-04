@@ -51,10 +51,20 @@ button {
     width: 13rem;
     font-family: var(--font-page);
 }
+button:hover{
+    transition: 0.3s; /* Transição suave para as cores */
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
 .button-light{
     background-color: var(--cor-secundaria);
     border: 1px solid var(--cor-primaria);
     color: var(--cor-primaria);
+}
+.button-light:hover{
+    transition: 0.3s; /* Transição suave para as cores */
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
 }
 
 /* */
@@ -109,6 +119,13 @@ textarea::placeholder{
     font-style: normal;
     font-size: 1.25rem;
 }
+.info-regra{
+    display: flex;
+    font-size: x-small;
+    align-self: center;
+    margin-bottom: 0.2rem;
+    align-items: center;
+}
 
 /* */
 .decor {
@@ -126,4 +143,14 @@ textarea::placeholder{
         height: 89.8%;
         background-color: var(--cor-fundo);
     }
+}
+
+/* */
+@media screen and (max-width: 770px){
+    .navbar{
+        width: fit-content;
+    }
+    /* .foorter-dev{
+
+    } */
 }
