@@ -1,6 +1,6 @@
 # Decodificador
-![GitHub Tag](https://img.shields.io/github/v/tag/SrJohn369/Decodificador?style=for-the-badge&label=Version)
-[![status](https://img.shields.io/badge/status-em_desenvolvimento-blue?style=for-the-badge)](https://github.com/SrJohn369/Decodificador/tags)
+[![GitHub Tag](https://img.shields.io/github/v/tag/SrJohn369/Decodificador?style=for-the-badge&label=Version)]((https://github.com/SrJohn369/Decodificador/tags))
+![status](https://img.shields.io/badge/status-em_desenvolvimento-blue?style=for-the-badge)
 ## Descrição
  Um decodificador web usado para criptografar e descriptografar textos
 ## Features
