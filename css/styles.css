@@ -35,7 +35,11 @@ body {
     justify-content: center;
     padding: 1rem;
 }
-
+main{
+    display: flex;
+    height: 84.5vh;
+    align-items: center;
+}
 /**/
 .main-buttons{
     display: flex;
@@ -146,11 +150,32 @@ textarea::placeholder{
 }
 
 /* */
-@media screen and (max-width: 770px){
-    .navbar{
-        width: fit-content;
+@media screen and (max-width: 413px){
+    main{
+        height: 66.5vh;
     }
-    /* .foorter-dev{
-
-    } */
+    .decor{
+        flex-direction: column;
+        height: 25vh;
+        align-items: center;
+    }
+    .decodificador {
+        background-color: aquamarine;
+        height: 30rem;
+        width: 90vw;
+        textarea {
+            background-color: black;
+            height: 12rem;
+        }
+        .main-buttons{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0.3rem;
+        }
+    }
+    .resultText{
+        height: 16vh;
+    }
 }
